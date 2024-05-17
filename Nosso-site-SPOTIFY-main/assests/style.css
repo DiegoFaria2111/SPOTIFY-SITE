@@ -1,0 +1,230 @@
+@import url(./reset.css);
+
+body{
+  background: url(./images/650666.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 110vh;
+  background: rgba(39, 39, 39, 0.404);
+}
+
+.nav{
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  background: linear-gradient(rgba(39, 39, 39, 1), transparent);
+  z-index: 100;
+}
+
+.nav-logo{
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.nav-logo a{
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-menu ul{
+  display: flex;
+}
+
+.nav-menu ul li{
+  list-style-type: none;
+}
+
+.nav-menu ul li .link{
+  text-decoration: none;
+  font-weight: 500;
+  color: #fff;
+  padding-bottom: 15px;
+  margin: 0 25px;
+}
+
+.link:hover{
+  border-bottom: 3px solid #fff;
+}
+
+.nav-menu-btn{
+  display: none;
+}
+
+/**********************FORMULARIO**********************/
+
+.box-form{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 580px;
+  height: 600px;
+  overflow: hidden;
+  z-index: 2;
+  background: black;
+}
+
+.register-container{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  transition: .5s ease-in-out;
+  background: black;
+}
+
+.top h2{
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px 0 30px 0; 
+}
+
+.input-field{
+  font-size: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  height: 50px;
+  width: 100%;
+  padding: 0 10px 0 45px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  transition: .2s ease;
+}
+
+.input-field:hover, .input-field:focus{
+  background: rgba(111, 255, 106, 0.45);
+}
+
+::-webkit-input-placeholder{
+  color: #fff;
+}
+
+.input-box i{
+  position: relative;
+  top: -35px;
+  left: 17px;
+  color: #fff;
+}
+
+.label-term{
+  padding-bottom: 25px;
+  color: #fff;
+}
+
+.label-term .select-op{
+  font-size: 15px;
+  background: rgb(255, 255, 255);
+  color: black;
+  border: none;
+  border-radius: 10px;
+}
+
+.submit{
+  font-size: 15px;
+    font-weight: 500;
+    color: black;
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    background: rgb(67, 255, 98);
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.submit:hover{
+  background: rgb(173, 255, 166);
+  box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+
+/**********************FORMULARIO**********************/
+
+.testep{
+  color: #fff;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+
+input:invalid, textarea:invalid{
+  border-color: red;
+}
+
+input:valid, textarea:valid{
+  border-color: green;
+}
+
+input:focus, textarea:focus{
+  border-color: rgb(21, 4, 98) !important
+}
+
+h1 {
+  margin: 15dvh;
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header{
+  height: 100px;
+  
+}
+
+h2 {
+  margin: 15px;
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header{
+  height: 100px;
+
+}
+
+p1{
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p2{
+  color: green;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+	background-color: #000000;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+@media screen and (max-width: 600px){
+  
+}
+
+
